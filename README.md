@@ -6,7 +6,7 @@ In this repository, I will be answering various questions related to the dataset
 Skills : Subquery, common table expressions (CTE), joins, aggregats functions, window functions
 
 ```sql
--- creating tables
+-- 1. creating tables
 
 CREATE TABLE IF NOT EXISTS OLYMPICS_HISTORY
 (
@@ -34,10 +34,12 @@ CREATE TABLE IF NOT EXISTS OLYMPICS_HISTORY_NOC_REGIONS
     notes       VARCHAR
 );
 
--- checking data
+-- 2. checking data
 
 select * from OLYMPICS_HISTORY;
 select * from OLYMPICS_HISTORY_NOC_REGIONS;
+
+-- Questions
 
 -- 1. How many olympics games have been held?
 
